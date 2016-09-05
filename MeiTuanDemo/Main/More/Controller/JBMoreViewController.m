@@ -1,18 +1,18 @@
 //
-//  JBControllerViewController.m
+//  JBMoreViewController.m
 //  MeiTuanDemo
 //
 //  Created by saifing on 16/9/5.
 //  Copyright © 2016年 baiyinxiao. All rights reserved.
 //
 
-#import "JBControllerViewController.h"
+#import "JBMoreViewController.h"
 
-@interface JBControllerViewController ()
+@interface JBMoreViewController ()
 
 @end
 
-@implementation JBControllerViewController
+@implementation JBMoreViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

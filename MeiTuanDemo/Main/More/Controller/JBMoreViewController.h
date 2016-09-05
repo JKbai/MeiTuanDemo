@@ -1,5 +1,5 @@
 //
-//  JBControllerViewController.h
+//  JBMoreViewController.h
 //  MeiTuanDemo
 //
 //  Created by saifing on 16/9/5.
@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface JBControllerViewController : BaseViewController
+@interface JBMoreViewController : BaseViewController
 
 @end

@@ -7,4 +7,6 @@ pod 'MBProgressHUD'
 
 pod 'MJRefresh'
 
+pod 'CYLTabBarController'
+
 end

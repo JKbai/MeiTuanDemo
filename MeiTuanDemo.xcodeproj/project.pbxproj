@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB8A54421D7D5877000CFB57 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A54411D7D5877000CFB57 /* UIColor+HEX.m */; };
 		ABA5653D1D7CFD5E001F863E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5653C1D7CFD5E001F863E /* main.m */; };
 		ABA565481D7CFD5E001F863E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA565471D7CFD5E001F863E /* Assets.xcassets */; };
 		ABA5654B1D7CFD5E001F863E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA565491D7CFD5E001F863E /* LaunchScreen.storyboard */; };
@@ -23,8 +24,8 @@
 		ABA565CE1D7D1E1C001F863E /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA565CA1D7D1E1C001F863E /* BaseViewController.xib */; };
 		ABA565D21D7D1E44001F863E /* JBMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA565D01D7D1E44001F863E /* JBMeController.m */; };
 		ABA565D31D7D1E44001F863E /* JBMeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA565D11D7D1E44001F863E /* JBMeController.xib */; };
-		ABA565D71D7D1E6F001F863E /* JBControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA565D51D7D1E6F001F863E /* JBControllerViewController.m */; };
-		ABA565D81D7D1E6F001F863E /* JBControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA565D61D7D1E6F001F863E /* JBControllerViewController.xib */; };
+		ABA565D71D7D1E6F001F863E /* JBMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA565D51D7D1E6F001F863E /* JBMoreViewController.m */; };
+		ABA565D81D7D1E6F001F863E /* JBMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA565D61D7D1E6F001F863E /* JBMoreViewController.xib */; };
 		F4E211740009051F14334F29 /* libPods-MeiTuanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D4706141E98D52CA013C73 /* libPods-MeiTuanDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 /* Begin PBXFileReference section */
 		08D4706141E98D52CA013C73 /* libPods-MeiTuanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiTuanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61491E6EF464E255A1BDD7C /* Pods-MeiTuanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB8A54401D7D5877000CFB57 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		AB8A54411D7D5877000CFB57 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
 		ABA565381D7CFD5D001F863E /* MeiTuanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA5653C1D7CFD5E001F863E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABA565471D7CFD5E001F863E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
@@ -78,9 +81,9 @@
 		ABA565CF1D7D1E44001F863E /* JBMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMeController.h; sourceTree = "<group>"; };
 		ABA565D01D7D1E44001F863E /* JBMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMeController.m; sourceTree = "<group>"; };
 		ABA565D11D7D1E44001F863E /* JBMeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBMeController.xib; sourceTree = "<group>"; };
-		ABA565D41D7D1E6F001F863E /* JBControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBControllerViewController.h; sourceTree = "<group>"; };
-		ABA565D51D7D1E6F001F863E /* JBControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBControllerViewController.m; sourceTree = "<group>"; };
-		ABA565D61D7D1E6F001F863E /* JBControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBControllerViewController.xib; sourceTree = "<group>"; };
+		ABA565D41D7D1E6F001F863E /* JBMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMoreViewController.h; sourceTree = "<group>"; };
+		ABA565D51D7D1E6F001F863E /* JBMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMoreViewController.m; sourceTree = "<group>"; };
+		ABA565D61D7D1E6F001F863E /* JBMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBMoreViewController.xib; sourceTree = "<group>"; };
 		CAB51FE4D0E3ACF8BD6D1DB3 /* Pods-MeiTuanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +128,13 @@
 				CAB51FE4D0E3ACF8BD6D1DB3 /* Pods-MeiTuanDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB8A543F1D7D585C000CFB57 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 		ABA5652F1D7CFD5D001F863E = {
@@ -203,6 +213,9 @@
 		ABA5656F1D7CFF6D001F863E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				AB8A54401D7D5877000CFB57 /* UIColor+HEX.h */,
+				AB8A54411D7D5877000CFB57 /* UIColor+HEX.m */,
+				AB8A543F1D7D585C000CFB57 /* UIColor */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -586,9 +599,9 @@
 		ABA5659D1D7CFF6D001F863E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				ABA565D41D7D1E6F001F863E /* JBControllerViewController.h */,
-				ABA565D51D7D1E6F001F863E /* JBControllerViewController.m */,
-				ABA565D61D7D1E6F001F863E /* JBControllerViewController.xib */,
+				ABA565D41D7D1E6F001F863E /* JBMoreViewController.h */,
+				ABA565D51D7D1E6F001F863E /* JBMoreViewController.m */,
+				ABA565D61D7D1E6F001F863E /* JBMoreViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -805,7 +818,7 @@
 			files = (
 				ABA5654B1D7CFD5E001F863E /* LaunchScreen.storyboard in Resources */,
 				ABA565D31D7D1E44001F863E /* JBMeController.xib in Resources */,
-				ABA565D81D7D1E6F001F863E /* JBControllerViewController.xib in Resources */,
+				ABA565D81D7D1E6F001F863E /* JBMoreViewController.xib in Resources */,
 				ABA565CE1D7D1E1C001F863E /* BaseViewController.xib in Resources */,
 				ABA565C31D7D1D91001F863E /* JBBusinessController.xib in Resources */,
 				ABA565BE1D7D1D70001F863E /* JBHomeController.xib in Resources */,
@@ -885,12 +898,13 @@
 				ABA565BD1D7D1D70001F863E /* JBHomeController.m in Sources */,
 				ABA565CB1D7D1E1C001F863E /* BaseNaviController.m in Sources */,
 				ABA565CC1D7D1E1C001F863E /* BaseTabBatController.m in Sources */,
-				ABA565D71D7D1E6F001F863E /* JBControllerViewController.m in Sources */,
+				ABA565D71D7D1E6F001F863E /* JBMoreViewController.m in Sources */,
 				ABA565AD1D7CFF6D001F863E /* AppDelegate.m in Sources */,
 				ABA5653D1D7CFD5E001F863E /* main.m in Sources */,
 				ABA565D21D7D1E44001F863E /* JBMeController.m in Sources */,
 				ABA565CD1D7D1E1C001F863E /* BaseViewController.m in Sources */,
 				ABA565C21D7D1D91001F863E /* JBBusinessController.m in Sources */,
+				AB8A54421D7D5877000CFB57 /* UIColor+HEX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
