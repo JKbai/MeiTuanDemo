@@ -13,7 +13,7 @@
 #import "JBBusinessController.h"
 #import "JBMeController.h"
 #import "JBMoreViewController.h"
-#import "UIColor+HEX.h"
+
 
 
 @interface BaseTabBatController ()
@@ -27,6 +27,11 @@
     if (self) {
         [self setupTabBarController];
         self.tabBar.selectedImageTintColor = [UIColor colorWithWholeRed:48 green:172 blue:159];
+        
+        //设置tabBar的背景颜色
+        UIView *view = [[UIView alloc]initWithFrame:self.tabBar.bounds];
+        view.backgroundColor = [UIColor whiteColor];
+        [[UITabBar appearance]insertSubview:view atIndex:0];
     }
     return self;
 }
@@ -126,6 +131,7 @@
     BOOL isBaiDuService = [viewController.topViewController isKindOfClass:[JBBusinessController class]];
     if (isBaiDuService) {
 //        NSLog(@"你点击了TabBar第二个");
+        XBLog(@"你点击了商家tabBar");
     }
     return YES;
 }

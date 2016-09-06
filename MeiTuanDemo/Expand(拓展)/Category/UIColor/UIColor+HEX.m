@@ -1,9 +1,9 @@
 //
 //  UIColor+HEX.m
-//  iOS-Categories (https://github.com/shaojiankui/iOS-Categories)
+//  MeiTuanDemo
 //
-//  Created by Jakey on 14/12/15.
-//  Copyright (c) 2014年 www.skyfox.org. All rights reserved.
+//  Created by 白印潇 on 16/1/5.
+//  Copyright © 2016年 baiyinxiao. All rights reserved.
 //
 
 #import "UIColor+HEX.h"

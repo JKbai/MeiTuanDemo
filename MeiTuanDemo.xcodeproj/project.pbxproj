@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB8A54421D7D5877000CFB57 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A54411D7D5877000CFB57 /* UIColor+HEX.m */; };
+		AB6E9B351D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E9B341D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m */; };
+		AB6E9B3C1D7EC6C1002C9129 /* UIButton+MiddleAligning.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E9B3B1D7EC6C1002C9129 /* UIButton+MiddleAligning.m */; };
 		ABA5653D1D7CFD5E001F863E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5653C1D7CFD5E001F863E /* main.m */; };
 		ABA565481D7CFD5E001F863E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA565471D7CFD5E001F863E /* Assets.xcassets */; };
 		ABA5654B1D7CFD5E001F863E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA565491D7CFD5E001F863E /* LaunchScreen.storyboard */; };
@@ -26,6 +27,11 @@
 		ABA565D31D7D1E44001F863E /* JBMeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA565D11D7D1E44001F863E /* JBMeController.xib */; };
 		ABA565D71D7D1E6F001F863E /* JBMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA565D51D7D1E6F001F863E /* JBMoreViewController.m */; };
 		ABA565D81D7D1E6F001F863E /* JBMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA565D61D7D1E6F001F863E /* JBMoreViewController.xib */; };
+		ABA86CB51D7E6E90007C9138 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CB41D7E6E90007C9138 /* UIColor+HEX.m */; };
+		ABA86CB91D7E71FE007C9138 /* UIImage+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CB81D7E71FE007C9138 /* UIImage+XBCategory.m */; };
+		ABA86CBD1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CBC1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m */; };
+		ABA86CC01D7E94D9007C9138 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CBF1D7E94D9007C9138 /* UINavigationBar+Awesome.m */; };
+		ABA86CC21D7E9C47007C9138 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA86CC11D7E9C47007C9138 /* bg.jpg */; };
 		F4E211740009051F14334F29 /* libPods-MeiTuanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D4706141E98D52CA013C73 /* libPods-MeiTuanDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -49,8 +55,11 @@
 /* Begin PBXFileReference section */
 		08D4706141E98D52CA013C73 /* libPods-MeiTuanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiTuanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61491E6EF464E255A1BDD7C /* Pods-MeiTuanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		AB8A54401D7D5877000CFB57 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
-		AB8A54411D7D5877000CFB57 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		AB6E9B331D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XBBarButtonItem.h"; sourceTree = "<group>"; };
+		AB6E9B341D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XBBarButtonItem.m"; sourceTree = "<group>"; };
+		AB6E9B3A1D7EC6C1002C9129 /* UIButton+MiddleAligning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MiddleAligning.h"; sourceTree = "<group>"; };
+		AB6E9B3B1D7EC6C1002C9129 /* UIButton+MiddleAligning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MiddleAligning.m"; sourceTree = "<group>"; };
+		AB8A54431D7D5E2A000CFB57 /* XBMacrosHearder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBMacrosHearder.h; sourceTree = "<group>"; };
 		ABA565381D7CFD5D001F863E /* MeiTuanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA5653C1D7CFD5E001F863E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABA565471D7CFD5E001F863E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
@@ -84,6 +93,15 @@
 		ABA565D41D7D1E6F001F863E /* JBMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBMoreViewController.h; sourceTree = "<group>"; };
 		ABA565D51D7D1E6F001F863E /* JBMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBMoreViewController.m; sourceTree = "<group>"; };
 		ABA565D61D7D1E6F001F863E /* JBMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBMoreViewController.xib; sourceTree = "<group>"; };
+		ABA86CB31D7E6E90007C9138 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		ABA86CB41D7E6E90007C9138 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		ABA86CB71D7E71FE007C9138 /* UIImage+XBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XBCategory.h"; sourceTree = "<group>"; };
+		ABA86CB81D7E71FE007C9138 /* UIImage+XBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XBCategory.m"; sourceTree = "<group>"; };
+		ABA86CBB1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+NavigationBarBackground.h"; sourceTree = "<group>"; };
+		ABA86CBC1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+NavigationBarBackground.m"; sourceTree = "<group>"; };
+		ABA86CBE1D7E94D9007C9138 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		ABA86CBF1D7E94D9007C9138 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		ABA86CC11D7E9C47007C9138 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		CAB51FE4D0E3ACF8BD6D1DB3 /* Pods-MeiTuanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,9 +148,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AB6E9B321D7EC1D9002C9129 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				AB6E9B331D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.h */,
+				AB6E9B341D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m */,
+			);
+			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		AB6E9B361D7EC6A0002C9129 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				AB6E9B3A1D7EC6C1002C9129 /* UIButton+MiddleAligning.h */,
+				AB6E9B3B1D7EC6C1002C9129 /* UIButton+MiddleAligning.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		AB8A543F1D7D585C000CFB57 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
+				ABA86CB31D7E6E90007C9138 /* UIColor+HEX.h */,
+				ABA86CB41D7E6E90007C9138 /* UIColor+HEX.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -213,8 +251,10 @@
 		ABA5656F1D7CFF6D001F863E /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				AB8A54401D7D5877000CFB57 /* UIColor+HEX.h */,
-				AB8A54411D7D5877000CFB57 /* UIColor+HEX.m */,
+				AB6E9B361D7EC6A0002C9129 /* UIButton */,
+				AB6E9B321D7EC1D9002C9129 /* UIBarButtonItem */,
+				ABA86CBA1D7E8E7D007C9138 /* UINavigationBar */,
+				ABA86CB61D7E6EAD007C9138 /* UIImage */,
 				AB8A543F1D7D585C000CFB57 /* UIColor */,
 			);
 			path = Category;
@@ -237,6 +277,7 @@
 		ABA565721D7CFF6D001F863E /* Macros */ = {
 			isa = PBXGroup;
 			children = (
+				AB8A54431D7D5E2A000CFB57 /* XBMacrosHearder.h */,
 				ABA565AE1D7D1816001F863E /* meituan.pch */,
 			);
 			path = Macros;
@@ -682,6 +723,7 @@
 		ABA565A91D7CFF6D001F863E /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				ABA86CC11D7E9C47007C9138 /* bg.jpg */,
 				ABA565471D7CFD5E001F863E /* Assets.xcassets */,
 			);
 			path = Image;
@@ -707,6 +749,26 @@
 			children = (
 			);
 			path = Vender;
+			sourceTree = "<group>";
+		};
+		ABA86CB61D7E6EAD007C9138 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				ABA86CB71D7E71FE007C9138 /* UIImage+XBCategory.h */,
+				ABA86CB81D7E71FE007C9138 /* UIImage+XBCategory.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		ABA86CBA1D7E8E7D007C9138 /* UINavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				ABA86CBE1D7E94D9007C9138 /* UINavigationBar+Awesome.h */,
+				ABA86CBF1D7E94D9007C9138 /* UINavigationBar+Awesome.m */,
+				ABA86CBB1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.h */,
+				ABA86CBC1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m */,
+			);
+			path = UINavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -822,6 +884,7 @@
 				ABA565CE1D7D1E1C001F863E /* BaseViewController.xib in Resources */,
 				ABA565C31D7D1D91001F863E /* JBBusinessController.xib in Resources */,
 				ABA565BE1D7D1D70001F863E /* JBHomeController.xib in Resources */,
+				ABA86CC21D7E9C47007C9138 /* bg.jpg in Resources */,
 				ABA565481D7CFD5E001F863E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -895,16 +958,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA86CC01D7E94D9007C9138 /* UINavigationBar+Awesome.m in Sources */,
 				ABA565BD1D7D1D70001F863E /* JBHomeController.m in Sources */,
 				ABA565CB1D7D1E1C001F863E /* BaseNaviController.m in Sources */,
 				ABA565CC1D7D1E1C001F863E /* BaseTabBatController.m in Sources */,
+				ABA86CBD1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m in Sources */,
+				AB6E9B351D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m in Sources */,
+				ABA86CB91D7E71FE007C9138 /* UIImage+XBCategory.m in Sources */,
 				ABA565D71D7D1E6F001F863E /* JBMoreViewController.m in Sources */,
 				ABA565AD1D7CFF6D001F863E /* AppDelegate.m in Sources */,
 				ABA5653D1D7CFD5E001F863E /* main.m in Sources */,
 				ABA565D21D7D1E44001F863E /* JBMeController.m in Sources */,
 				ABA565CD1D7D1E1C001F863E /* BaseViewController.m in Sources */,
 				ABA565C21D7D1D91001F863E /* JBBusinessController.m in Sources */,
-				AB8A54421D7D5877000CFB57 /* UIColor+HEX.m in Sources */,
+				AB6E9B3C1D7EC6C1002C9129 /* UIButton+MiddleAligning.m in Sources */,
+				ABA86CB51D7E6E90007C9138 /* UIColor+HEX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

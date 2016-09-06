@@ -8,11 +8,23 @@
 
 #import "BaseNaviController.h"
 
+#import "UIImage+XBCategory.h"
+
 @interface BaseNaviController ()
 
 @end
 
 @implementation BaseNaviController
+
+- (instancetype)initWithRootViewController:(UIViewController *)rootViewController {
+    self = [super initWithRootViewController:rootViewController];
+    
+    if (self) {
+        [self.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithWholeRed:48 green:172 blue:159]] forBarMetrics:UIBarMetricsDefault];
+        self.navigationBar.barStyle = UIBarStyleBlackOpaque;
+    }
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
