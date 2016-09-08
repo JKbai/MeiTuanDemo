@@ -2,17 +2,20 @@ PODS:
   - CYLTabBarController (1.6.0)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
+  - NYSegmentedControl (1.0.7)
 
 DEPENDENCIES:
   - CYLTabBarController
   - MBProgressHUD
   - MJRefresh
+  - NYSegmentedControl
 
 SPEC CHECKSUMS:
   CYLTabBarController: efbdd574772be17f17965acd7ee993f5972ff02f
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  NYSegmentedControl: 55b4f9eb652767cae9799623ec3e49e50029ef47
 
-PODFILE CHECKSUM: 008ff7d02438a80d3806b1d1f35bd0d072e26b23
+PODFILE CHECKSUM: 586e8a66a7f1d268eafd674c328cf986b8629918
 
 COCOAPODS: 1.1.0.beta.1

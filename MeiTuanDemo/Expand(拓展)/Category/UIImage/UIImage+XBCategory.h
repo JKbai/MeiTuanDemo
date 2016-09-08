@@ -12,6 +12,9 @@
 //需求:防止图片渲染
 + (UIImage *)imageRenderingModeImageNamed:(NSString *)imageName;
 
+//图片0.5处内部拉升
++ (instancetype)imageWithStretchableName:(NSString *)imageName;
+
 //自由拉伸一张图片
 + (UIImage *)resizedImageWithName:(NSString *)name left:(CGFloat)left top:(CGFloat)top;
 

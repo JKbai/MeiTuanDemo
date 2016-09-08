@@ -9,4 +9,6 @@ pod 'MJRefresh'
 
 pod 'CYLTabBarController'
 
+pod 'NYSegmentedControl'
+
 end

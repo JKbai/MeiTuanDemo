@@ -29,6 +29,14 @@
     return [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
 }
 
+
+//图片0.5处内部拉升
++ (instancetype)imageWithStretchableName:(NSString *)imageName
+{
+    UIImage *image = [UIImage imageNamed:imageName];
+    return [image stretchableImageWithLeftCapWidth:image.size.width * 0.5 topCapHeight:image.size.height * 0.5];
+}
+
 /**
  *  自由拉伸一张图片
  *

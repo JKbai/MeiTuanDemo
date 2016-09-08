@@ -25,9 +25,13 @@
     view.backgroundColor = [UIColor colorWithWholeRed:48 green:172 blue:159];
     [self.tableView addSubview:view];
     
-    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc]initWithTitle:@"消息" style:UIBarButtonItemStylePlain target:self action:@selector(clickRightItem)];
-    rightItem.tintColor = [UIColor whiteColor];
-    self.navigationItem.rightBarButtonItem = rightItem;
+    
+    /** 右边的item */
+    
+    UIBarButtonItem *rightItem1 = [UIBarButtonItem barButtonItemWithImage:[UIImage imageNamed:@"icon_navigationItem_message_white"] highImage:[UIImage imageNamed:@"icon_navigationItem_message_white_highlighted"] target:self action:@selector(clickMessage) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *rightItem2 = [UIBarButtonItem barButtonItemWithImage:[UIImage imageNamed:@"icon_navigationItem_set_white"] highImage:[UIImage imageNamed:@"icon_navigationItem_set_highlighted"] target:self action:@selector(clickSet) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.navigationItem.rightBarButtonItems = @[rightItem2, rightItem1];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     
@@ -35,10 +39,19 @@
 }
 
 #pragma mark 点击事件
-- (void)clickRightItem {
-    XBLog(@"heheh");
+/**
+ *  右边item消息的点击事件
+ */
+- (void)clickMessage {
+    XBLog(@"点击了右边消息item");
 }
 
+/**
+ *  右边item设置的点击事件
+ */
+- (void)clickSet {
+    XBLog(@"点击了右边设置item");
+}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:YES];

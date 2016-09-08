@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB4C13321D7FAA2B0034D586 /* JBCustombutton.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4C13311D7FAA2B0034D586 /* JBCustombutton.m */; };
+		AB4C13351D7FB1AB0034D586 /* JBChooseCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4C13341D7FB1AB0034D586 /* JBChooseCityController.m */; };
+		AB4C13381D7FC80C0034D586 /* JBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4C13371D7FC80C0034D586 /* JBSearchBar.m */; };
+		AB4C133F1D7FCB2C0034D586 /* UIView+JBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4C133E1D7FCB2C0034D586 /* UIView+JBFrame.m */; };
 		AB6E9B351D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E9B341D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m */; };
 		AB6E9B3C1D7EC6C1002C9129 /* UIButton+MiddleAligning.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E9B3B1D7EC6C1002C9129 /* UIButton+MiddleAligning.m */; };
 		ABA5653D1D7CFD5E001F863E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA5653C1D7CFD5E001F863E /* main.m */; };
 		ABA565481D7CFD5E001F863E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABA565471D7CFD5E001F863E /* Assets.xcassets */; };
-		ABA5654B1D7CFD5E001F863E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABA565491D7CFD5E001F863E /* LaunchScreen.storyboard */; };
 		ABA565561D7CFD5E001F863E /* MeiTuanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA565551D7CFD5E001F863E /* MeiTuanDemoTests.m */; };
 		ABA565611D7CFD5E001F863E /* MeiTuanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA565601D7CFD5E001F863E /* MeiTuanDemoUITests.m */; };
 		ABA565AD1D7CFF6D001F863E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA565A71D7CFF6D001F863E /* AppDelegate.m */; };
@@ -31,7 +34,6 @@
 		ABA86CB91D7E71FE007C9138 /* UIImage+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CB81D7E71FE007C9138 /* UIImage+XBCategory.m */; };
 		ABA86CBD1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CBC1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m */; };
 		ABA86CC01D7E94D9007C9138 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CBF1D7E94D9007C9138 /* UINavigationBar+Awesome.m */; };
-		ABA86CC21D7E9C47007C9138 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA86CC11D7E9C47007C9138 /* bg.jpg */; };
 		F4E211740009051F14334F29 /* libPods-MeiTuanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D4706141E98D52CA013C73 /* libPods-MeiTuanDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,14 @@
 /* Begin PBXFileReference section */
 		08D4706141E98D52CA013C73 /* libPods-MeiTuanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeiTuanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A61491E6EF464E255A1BDD7C /* Pods-MeiTuanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB4C13301D7FAA2B0034D586 /* JBCustombutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCustombutton.h; sourceTree = "<group>"; };
+		AB4C13311D7FAA2B0034D586 /* JBCustombutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCustombutton.m; sourceTree = "<group>"; };
+		AB4C13331D7FB1AB0034D586 /* JBChooseCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChooseCityController.h; sourceTree = "<group>"; };
+		AB4C13341D7FB1AB0034D586 /* JBChooseCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChooseCityController.m; sourceTree = "<group>"; };
+		AB4C13361D7FC80C0034D586 /* JBSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBSearchBar.h; sourceTree = "<group>"; };
+		AB4C13371D7FC80C0034D586 /* JBSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSearchBar.m; sourceTree = "<group>"; };
+		AB4C133D1D7FCB2C0034D586 /* UIView+JBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JBFrame.h"; sourceTree = "<group>"; };
+		AB4C133E1D7FCB2C0034D586 /* UIView+JBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JBFrame.m"; sourceTree = "<group>"; };
 		AB6E9B331D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XBBarButtonItem.h"; sourceTree = "<group>"; };
 		AB6E9B341D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XBBarButtonItem.m"; sourceTree = "<group>"; };
 		AB6E9B3A1D7EC6C1002C9129 /* UIButton+MiddleAligning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MiddleAligning.h"; sourceTree = "<group>"; };
@@ -63,7 +73,6 @@
 		ABA565381D7CFD5D001F863E /* MeiTuanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeiTuanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA5653C1D7CFD5E001F863E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ABA565471D7CFD5E001F863E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
-		ABA5654A1D7CFD5E001F863E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABA5654C1D7CFD5E001F863E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		ABA565511D7CFD5E001F863E /* MeiTuanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeiTuanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA565551D7CFD5E001F863E /* MeiTuanDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeiTuanDemoTests.m; sourceTree = "<group>"; };
@@ -101,7 +110,6 @@
 		ABA86CBC1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+NavigationBarBackground.m"; sourceTree = "<group>"; };
 		ABA86CBE1D7E94D9007C9138 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		ABA86CBF1D7E94D9007C9138 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
-		ABA86CC11D7E9C47007C9138 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		CAB51FE4D0E3ACF8BD6D1DB3 /* Pods-MeiTuanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeiTuanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeiTuanDemo/Pods-MeiTuanDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +154,38 @@
 				CAB51FE4D0E3ACF8BD6D1DB3 /* Pods-MeiTuanDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB4C132D1D7FA6BD0034D586 /* ChooseCity */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C13331D7FB1AB0034D586 /* JBChooseCityController.h */,
+				AB4C13341D7FB1AB0034D586 /* JBChooseCityController.m */,
+			);
+			path = ChooseCity;
+			sourceTree = "<group>";
+		};
+		AB4C132E1D7FA6BD0034D586 /* HomeMessages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeMessages;
+			sourceTree = "<group>";
+		};
+		AB4C132F1D7FA6BD0034D586 /* QrAndPayment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = QrAndPayment;
+			sourceTree = "<group>";
+		};
+		AB4C13391D7FCA5A0034D586 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				AB4C133D1D7FCB2C0034D586 /* UIView+JBFrame.h */,
+				AB4C133E1D7FCB2C0034D586 /* UIView+JBFrame.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		AB6E9B321D7EC1D9002C9129 /* UIBarButtonItem */ = {
@@ -251,6 +291,7 @@
 		ABA5656F1D7CFF6D001F863E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				AB4C13391D7FCA5A0034D586 /* UIView */,
 				AB6E9B361D7EC6A0002C9129 /* UIButton */,
 				AB6E9B321D7EC1D9002C9129 /* UIBarButtonItem */,
 				ABA86CBA1D7E8E7D007C9138 /* UINavigationBar */,
@@ -445,6 +486,9 @@
 		ABA565851D7CFF6D001F863E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AB4C132D1D7FA6BD0034D586 /* ChooseCity */,
+				AB4C132E1D7FA6BD0034D586 /* HomeMessages */,
+				AB4C132F1D7FA6BD0034D586 /* QrAndPayment */,
 				ABA565BA1D7D1D70001F863E /* JBHomeController.h */,
 				ABA565BB1D7D1D70001F863E /* JBHomeController.m */,
 				ABA565BC1D7D1D70001F863E /* JBHomeController.xib */,
@@ -492,6 +536,10 @@
 		ABA5658B1D7CFF6D001F863E /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				AB4C13301D7FAA2B0034D586 /* JBCustombutton.h */,
+				AB4C13311D7FAA2B0034D586 /* JBCustombutton.m */,
+				AB4C13361D7FC80C0034D586 /* JBSearchBar.h */,
+				AB4C13371D7FC80C0034D586 /* JBSearchBar.m */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -708,7 +756,6 @@
 			children = (
 				ABA565A61D7CFF6D001F863E /* AppDelegate.h */,
 				ABA565A71D7CFF6D001F863E /* AppDelegate.m */,
-				ABA565491D7CFD5E001F863E /* LaunchScreen.storyboard */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -723,7 +770,6 @@
 		ABA565A91D7CFF6D001F863E /* Image */ = {
 			isa = PBXGroup;
 			children = (
-				ABA86CC11D7E9C47007C9138 /* bg.jpg */,
 				ABA565471D7CFD5E001F863E /* Assets.xcassets */,
 			);
 			path = Image;
@@ -878,13 +924,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABA5654B1D7CFD5E001F863E /* LaunchScreen.storyboard in Resources */,
 				ABA565D31D7D1E44001F863E /* JBMeController.xib in Resources */,
 				ABA565D81D7D1E6F001F863E /* JBMoreViewController.xib in Resources */,
 				ABA565CE1D7D1E1C001F863E /* BaseViewController.xib in Resources */,
 				ABA565C31D7D1D91001F863E /* JBBusinessController.xib in Resources */,
 				ABA565BE1D7D1D70001F863E /* JBHomeController.xib in Resources */,
-				ABA86CC21D7E9C47007C9138 /* bg.jpg in Resources */,
 				ABA565481D7CFD5E001F863E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -958,10 +1002,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB4C13351D7FB1AB0034D586 /* JBChooseCityController.m in Sources */,
 				ABA86CC01D7E94D9007C9138 /* UINavigationBar+Awesome.m in Sources */,
 				ABA565BD1D7D1D70001F863E /* JBHomeController.m in Sources */,
+				AB4C13381D7FC80C0034D586 /* JBSearchBar.m in Sources */,
 				ABA565CB1D7D1E1C001F863E /* BaseNaviController.m in Sources */,
 				ABA565CC1D7D1E1C001F863E /* BaseTabBatController.m in Sources */,
+				AB4C133F1D7FCB2C0034D586 /* UIView+JBFrame.m in Sources */,
 				ABA86CBD1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m in Sources */,
 				AB6E9B351D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m in Sources */,
 				ABA86CB91D7E71FE007C9138 /* UIImage+XBCategory.m in Sources */,
@@ -972,6 +1019,7 @@
 				ABA565CD1D7D1E1C001F863E /* BaseViewController.m in Sources */,
 				ABA565C21D7D1D91001F863E /* JBBusinessController.m in Sources */,
 				AB6E9B3C1D7EC6C1002C9129 /* UIButton+MiddleAligning.m in Sources */,
+				AB4C13321D7FAA2B0034D586 /* JBCustombutton.m in Sources */,
 				ABA86CB51D7E6E90007C9138 /* UIColor+HEX.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1006,18 +1054,6 @@
 			targetProxy = ABA5655D1D7CFD5E001F863E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		ABA565491D7CFD5E001F863E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABA5654A1D7CFD5E001F863E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ABA565631D7CFD5E001F863E /* Debug */ = {
