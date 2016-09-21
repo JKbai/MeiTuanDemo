@@ -23,4 +23,17 @@
     return  [[UIBarButtonItem alloc] initWithCustomView:btn];
 }
 
+
++ (UIBarButtonItem *)initWithNormalImage:(NSString *)image target:(id)target action:(SEL)action width:(CGFloat)width height:(CGFloat)height
+{
+    UIImage *normalImage = [UIImage imageNamed:image];
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.frame = CGRectMake(0, 0, width, height);
+    [btn setBackgroundImage:normalImage forState:UIControlStateNormal];
+    [btn addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    
+    return [[UIBarButtonItem alloc] initWithCustomView:btn];
+}
+
 @end

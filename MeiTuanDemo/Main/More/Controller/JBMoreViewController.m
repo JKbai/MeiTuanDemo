@@ -15,6 +15,7 @@
 @implementation JBMoreViewController
 
 - (void)viewDidLoad {
+
     [super viewDidLoad];
     [self setNavi];
 }

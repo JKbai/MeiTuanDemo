@@ -9,6 +9,7 @@
 #ifndef XBMacrosHearder_h
 #define XBMacrosHearder_h
 
+#import "Theme.h"
 
 //1.需要横屏或者竖屏，获取屏幕宽度与高度
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 80000 // 当前Xcode支持iOS8及以上

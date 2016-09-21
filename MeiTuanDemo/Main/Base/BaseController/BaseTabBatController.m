@@ -46,6 +46,7 @@
     
     self.delegate = self;
     self.moreNavigationController.navigationBarHidden = YES;
+    
 }
 
 /**
@@ -56,6 +57,7 @@
     //首页
     JBHomeController *home = [[JBHomeController alloc]init];
     
+    [self pushViewController:home animated:YES];
     UINavigationController *navi1 = [[BaseNaviController alloc]initWithRootViewController:home];
     
     //商家
@@ -130,10 +132,16 @@
     /// 特殊处理 - 是否需要登录
     BOOL isBaiDuService = [viewController.topViewController isKindOfClass:[JBBusinessController class]];
     if (isBaiDuService) {
-//        NSLog(@"你点击了TabBar第二个");
         XBLog(@"你点击了商家tabBar");
     }
     return YES;
+}
+
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    if (self.viewControllers.count > 0) {
+        viewController.hidesBottomBarWhenPushed = YES;
+    }
+    [super setHidesBottomBarWhenPushed:YES];
 }
 
 

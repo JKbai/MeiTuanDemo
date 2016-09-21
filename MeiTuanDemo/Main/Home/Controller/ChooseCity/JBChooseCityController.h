@@ -8,6 +8,15 @@
 
 #import "BaseViewController.h"
 
+@protocol JBChooseCityControllerDelegate <NSObject>
+
+- (void)passValueWithCity:(NSString *)city;
+
+@end
+
 @interface JBChooseCityController : BaseViewController
+
+
+@property (nonatomic, weak) id <JBChooseCityControllerDelegate> delegate;
 
 @end

@@ -10,6 +10,5 @@
 #import <UIKit/UIKit.h>
 
 @interface JBHomeController : BaseViewController
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
