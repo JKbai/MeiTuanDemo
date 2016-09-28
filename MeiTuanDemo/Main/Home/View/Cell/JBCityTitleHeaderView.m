@@ -18,6 +18,7 @@
         // 从xib中加载cell
         headView = [[[NSBundle mainBundle] loadNibNamed:@"JBCityTitleHeaderView" owner:nil options:nil] lastObject];
     }
+    
     headView.backgroundColor = [UIColor groupTableViewBackgroundColor];
     
     return headView;

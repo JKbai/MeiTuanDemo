@@ -22,7 +22,8 @@
 }
 
 +(instancetype)cellWithTableView:(UITableView *)tableView hotCityArray:(NSArray *)hotCityArray{
-    static NSString *cellIndentifier = @"JBHotCityNameCell";
+//    static NSString *cellIndentifier = @"JBHotCityNameCell";
+     NSString *cellIndentifier = NSStringFromClass([self class]);
     JBHotCityNameCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIndentifier];
     if (cell == nil) {
         cell = [[JBHotCityNameCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIndentifier hotCityArray:hotCityArray];

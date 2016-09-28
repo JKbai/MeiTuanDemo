@@ -11,4 +11,8 @@ pod 'CYLTabBarController'
 
 pod 'NYSegmentedControl'
 
+pod 'MKNetworkKit'
+
+pod 'Pingpp'
+
 end

@@ -2,20 +2,39 @@ PODS:
   - CYLTabBarController (1.6.0)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
+  - MKNetworkKit (0.87):
+    - Reachability (~> 3.1.0)
   - NYSegmentedControl (1.0.7)
+  - Pingpp (2.2.7):
+    - Pingpp/Alipay (= 2.2.7)
+    - Pingpp/Core (= 2.2.7)
+    - Pingpp/UnionPay (= 2.2.7)
+  - Pingpp/Alipay (2.2.7):
+    - Pingpp/Core
+  - Pingpp/Core (2.2.7):
+    - Pingpp/Network
+  - Pingpp/Network (2.2.7)
+  - Pingpp/UnionPay (2.2.7):
+    - Pingpp/Core
+  - Reachability (3.1.1)
 
 DEPENDENCIES:
   - CYLTabBarController
   - MBProgressHUD
   - MJRefresh
+  - MKNetworkKit
   - NYSegmentedControl
+  - Pingpp
 
 SPEC CHECKSUMS:
   CYLTabBarController: efbdd574772be17f17965acd7ee993f5972ff02f
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MKNetworkKit: 60ad3c83b62183e40ba75ce772c9427c25b520de
   NYSegmentedControl: 55b4f9eb652767cae9799623ec3e49e50029ef47
+  Pingpp: f451ea2e0f80965d84909f87cd3f5b4938c00d7a
+  Reachability: dd9aa4fb6667b9f787690a74f53cb7634ce99893
 
-PODFILE CHECKSUM: 586e8a66a7f1d268eafd674c328cf986b8629918
+PODFILE CHECKSUM: bb33f4e79354558ae4ffa76878c37da5e617951c
 
 COCOAPODS: 1.1.0.beta.1

@@ -10,9 +10,15 @@
 #define meituan_pch
 
 #import "XBMacrosHearder.h"
+#import "Singleton.h"
+#import "Theme.h"
+
 #import "UIColor+HEX.h"
 #import "UIImage+XBCategory.h"
 #import "UIBarButtonItem+XBBarButtonItem.h"
 #import "UIView+JBFrame.h"
+
+#import "JBNetwork.h"
+
 
 #endif /* meituan_pch */

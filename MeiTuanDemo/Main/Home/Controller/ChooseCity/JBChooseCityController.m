@@ -75,7 +75,7 @@
     return _keys.count;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+- (NSInteger)tableView:(UITableView *)tableView numberopeOfRowsInSection:(NSInteger)section {
     if (section == 0) {
         return 1;
     } else {

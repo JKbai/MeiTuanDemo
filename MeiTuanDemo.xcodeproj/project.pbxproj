@@ -13,6 +13,7 @@
 		AB4C13351D7FB1AB0034D586 /* JBChooseCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4C13341D7FB1AB0034D586 /* JBChooseCityController.m */; };
 		AB4C13381D7FC80C0034D586 /* JBSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4C13371D7FC80C0034D586 /* JBSearchBar.m */; };
 		AB4C133F1D7FCB2C0034D586 /* UIView+JBFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4C133E1D7FCB2C0034D586 /* UIView+JBFrame.m */; };
+		AB51690F1D94C05C0093E3D6 /* JBrequestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AB51690E1D94C05C0093E3D6 /* JBrequestModel.m */; };
 		AB6E9B351D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E9B341D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m */; };
 		AB6E9B3C1D7EC6C1002C9129 /* UIButton+MiddleAligning.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6E9B3B1D7EC6C1002C9129 /* UIButton+MiddleAligning.m */; };
 		AB944E3C1D90DD3500C5C3C7 /* JBMenuBtnView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB944E3B1D90DD3500C5C3C7 /* JBMenuBtnView.m */; };
@@ -64,6 +65,7 @@
 		ABA86CB91D7E71FE007C9138 /* UIImage+XBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CB81D7E71FE007C9138 /* UIImage+XBCategory.m */; };
 		ABA86CBD1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CBC1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m */; };
 		ABA86CC01D7E94D9007C9138 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA86CBF1D7E94D9007C9138 /* UINavigationBar+Awesome.m */; };
+		ABB9CFFF1D93E16A00FE2764 /* JBNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB9CFFE1D93E16A00FE2764 /* JBNetwork.m */; };
 		ABCC5AF71D86B78A008847BE /* JBLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCC5AF51D86B78A008847BE /* JBLoginController.m */; };
 		ABCC5AF81D86B78A008847BE /* JBLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABCC5AF61D86B78A008847BE /* JBLoginController.xib */; };
 		F4E211740009051F14334F29 /* libPods-MeiTuanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08D4706141E98D52CA013C73 /* libPods-MeiTuanDemo.a */; };
@@ -100,6 +102,10 @@
 		AB4C13371D7FC80C0034D586 /* JBSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBSearchBar.m; sourceTree = "<group>"; };
 		AB4C133D1D7FCB2C0034D586 /* UIView+JBFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JBFrame.h"; sourceTree = "<group>"; };
 		AB4C133E1D7FCB2C0034D586 /* UIView+JBFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JBFrame.m"; sourceTree = "<group>"; };
+		AB51690B1D94B8160093E3D6 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		AB51690C1D94BE7E0093E3D6 /* HTTPURLDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPURLDefine.h; sourceTree = "<group>"; };
+		AB51690D1D94C05C0093E3D6 /* JBrequestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBrequestModel.h; sourceTree = "<group>"; };
+		AB51690E1D94C05C0093E3D6 /* JBrequestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBrequestModel.m; sourceTree = "<group>"; };
 		AB6E9B331D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XBBarButtonItem.h"; sourceTree = "<group>"; };
 		AB6E9B341D7EC236002C9129 /* UIBarButtonItem+XBBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XBBarButtonItem.m"; sourceTree = "<group>"; };
 		AB6E9B3A1D7EC6C1002C9129 /* UIButton+MiddleAligning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MiddleAligning.h"; sourceTree = "<group>"; };
@@ -182,6 +188,8 @@
 		ABA86CBC1D7E8ED5007C9138 /* UINavigationBar+NavigationBarBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+NavigationBarBackground.m"; sourceTree = "<group>"; };
 		ABA86CBE1D7E94D9007C9138 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
 		ABA86CBF1D7E94D9007C9138 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		ABB9CFFD1D93E16A00FE2764 /* JBNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBNetwork.h; sourceTree = "<group>"; };
+		ABB9CFFE1D93E16A00FE2764 /* JBNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBNetwork.m; sourceTree = "<group>"; };
 		ABCC5AF41D86B78A008847BE /* JBLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLoginController.h; sourceTree = "<group>"; };
 		ABCC5AF51D86B78A008847BE /* JBLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLoginController.m; sourceTree = "<group>"; };
 		ABCC5AF61D86B78A008847BE /* JBLoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JBLoginController.xib; sourceTree = "<group>"; };
@@ -429,6 +437,8 @@
 				AB8A54431D7D5E2A000CFB57 /* XBMacrosHearder.h */,
 				ABA565AE1D7D1816001F863E /* meituan.pch */,
 				AB944E401D90E7D000C5C3C7 /* Theme.h */,
+				AB51690B1D94B8160093E3D6 /* Singleton.h */,
+				AB51690C1D94BE7E0093E3D6 /* HTTPURLDefine.h */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -436,6 +446,10 @@
 		ABA565731D7CFF6D001F863E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				ABB9CFFD1D93E16A00FE2764 /* JBNetwork.h */,
+				ABB9CFFE1D93E16A00FE2764 /* JBNetwork.m */,
+				AB51690D1D94C05C0093E3D6 /* JBrequestModel.h */,
+				AB51690E1D94C05C0093E3D6 /* JBrequestModel.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -990,6 +1004,7 @@
 				TargetAttributes = {
 					ABA565371D7CFD5D001F863E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8UB9MS4X6A;
 					};
 					ABA565501D7CFD5E001F863E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -1150,6 +1165,8 @@
 				ABA565D21D7D1E44001F863E /* JBMeController.m in Sources */,
 				AB944E821D91338C00C5C3C7 /* JBAllCityNameCell.m in Sources */,
 				ABA565CD1D7D1E1C001F863E /* BaseViewController.m in Sources */,
+				AB51690F1D94C05C0093E3D6 /* JBrequestModel.m in Sources */,
+				ABB9CFFF1D93E16A00FE2764 /* JBNetwork.m in Sources */,
 				ABA565C21D7D1D91001F863E /* JBBusinessController.m in Sources */,
 				AB6E9B3C1D7EC6C1002C9129 /* UIButton+MiddleAligning.m in Sources */,
 				AB4C13321D7FAA2B0034D586 /* JBCustombutton.m in Sources */,
@@ -1277,6 +1294,7 @@
 			baseConfigurationReference = A61491E6EF464E255A1BDD7C /* Pods-MeiTuanDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8UB9MS4X6A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1308,6 +1326,7 @@
 			baseConfigurationReference = CAB51FE4D0E3ACF8BD6D1DB3 /* Pods-MeiTuanDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8UB9MS4X6A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

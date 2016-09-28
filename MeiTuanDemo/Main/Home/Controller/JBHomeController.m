@@ -34,6 +34,8 @@
 @implementation JBHomeController
 
 #pragma mark --控制器的生命周期
+
+
 - (void)viewDidLoad {
     self.view.backgroundColor = [UIColor whiteColor];
     [super viewDidLoad];
@@ -45,8 +47,50 @@
 #pragma mark --初始化数据
 - (void)initData {
     self.menuArray = [GetPlistArray arrayWithString:@"menuData.plist"];
+    NSString *str = @"hehe";
+    XBLog(@"%@", str);
 }
 
+#pragma mark --网络数据请求
+/**
+ *  post请求测试
+ */
+- (void)requestPostData {
+    JBrequestModel *requestModel = [[JBrequestModel alloc]init];
+    requestModel.hostName = MTDeveURL;
+    requestModel.path = @"";
+    requestModel.type = @"";
+    requestModel.params = @{
+                            @"": @""
+                            };
+   
+   [[JBNetwork sharedInstance]postWithRequestModel:requestModel success:^(id Json) {
+       XBLog(@"%@", Json);
+   } failure:^(NSString *error) {
+       XBLog(@"%@", error);
+       
+       
+       
+   }];
+}
+
+/**
+ *  request(GET/POST)请求测试
+ */
+- (void)requestData {
+    JBrequestModel *requestModel = [[JBrequestModel alloc]init];
+    requestModel.hostName = MTDeveURL;
+    requestModel.path = @"";
+    requestModel.type = @"";
+    requestModel.params = @{
+                            @"": @""
+                            };
+    [[JBNetwork sharedInstance]resquestWithRequestModel:requestModel resquestMethod:GET success:^(id Json) {
+        XBLog(@"%@", Json);
+    } failure:^(NSString *error) {
+        XBLog(@"%@", error);
+    }];
+}
 #pragma mark --UI界面设计
 
 /**
@@ -234,7 +278,7 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section {
     return CGFLOAT_MIN;
 }
-//
+
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     if (section == 0) {
         return CGFLOAT_MIN;
